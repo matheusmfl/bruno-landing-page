@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import mainImage from '@/assets/hero-img.png'
 import { BiLogoWhatsapp } from 'react-icons/bi'
+import { CtaButton } from './CtaButton'
 
 export function Hero() {
   return (
@@ -25,10 +26,7 @@ export function Hero() {
         />
       </div>
 
-      <button className="flex rounded-[4px] gap-[10px] bg-green-700 items-center justify-center w-full py-3 font-roboto text-slate-50 font-medium text-base">
-        Quero ajuda especializada{' '}
-        <BiLogoWhatsapp className="text-slate-50 text-2xl" />
-      </button>
+      <CtaButton />
     </main>
   )
 }
