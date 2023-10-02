@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from '@/assets/logo.svg'
-import { LuMailMinus } from 'react-icons/lu'
+import { IoMailOutline } from 'react-icons/io5'
 
 export function Header() {
   return (
@@ -9,8 +9,8 @@ export function Header() {
       {/* Div Links */}
       <div className="flex w-full items-center justify-center gap-2">
         {/* Mail Div */}
-        <div className="flex gap-1">
-          <LuMailMinus />
+        <div className="flex gap-1 items-center">
+          <IoMailOutline className="text-orange-300" />
           <span>advbrunosilva@outlook.com</span>
         </div>
       </div>
