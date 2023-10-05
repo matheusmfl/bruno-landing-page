@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import mainImage from '@/assets/hero-img.png'
-import { BiLogoWhatsapp } from 'react-icons/bi'
 import { CtaButton } from './CtaButton'
 
 export function Hero() {
