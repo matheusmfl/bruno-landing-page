@@ -33,7 +33,7 @@ const config: Config = {
         },
       },
       animation: {
-        slideDown: 'slideDown 400ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideDown: 'slideDown 200ms cubic-bezier(0.87, 0, 0.13, 1)',
         slideUp: 'slideUp 400ms cubic-bezier(0.87, 0, 0.13, 1)',
       },
     },
