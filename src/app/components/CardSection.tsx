@@ -2,7 +2,7 @@ import { Cards } from './Cards'
 
 export function CardSection() {
   return (
-    <section className="bg-slate-800 py-8 px-4 flex flex-col gap-5">
+    <section className="bg-slate-800 py-8 px-4 flex flex-col gap-5 lg:px-32 lg:py-14 lg:grid lg:grid-cols-3">
       <Cards
         title="Elaboração da defesa"
         iconProps={1}

@@ -4,7 +4,7 @@ import { CtaButton } from './CtaButton'
 
 export function VideoSection() {
   return (
-    <section className="flex flex-col bg-slate-200 py-8 px-4 gap-4 font-roboto lg:flex-row lg:px-32 lg:py-14">
+    <section className="flex flex-col bg-slate-200 py-8 px-4 gap-4 font-roboto lg:flex-row lg:px-32 lg:py-14 lg:pb-0">
       <Image
         src={thumb}
         alt="thumb de video"

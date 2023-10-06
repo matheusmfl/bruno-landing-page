@@ -20,7 +20,7 @@ export function Cards({ title, iconProps, description }: CardsProps) {
     icon = icon3
   }
   return (
-    <div className="py-5 px-4 flex flex-col gap-[10px] rounded-lg bg-slate-800 border border-gray-600 shadow-md">
+    <div className="py-5 px-4 flex flex-col lg:py-5 lg:px-10 gap-[10px] rounded-lg bg-slate-800 border border-gray-600 shadow-md">
       {/* title + icon */}
       <div className="flex gap-[10px]">
         <Image src={icon} alt="ícone" />
