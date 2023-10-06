@@ -11,8 +11,8 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Bruno Silva Advogado',
-  description: 'Especialista em direito civil',
+  title: 'Dr. Bruno Silva',
+  description: 'Especialista expert em busca e apreensão',
 }
 
 export default function RootLayout({
