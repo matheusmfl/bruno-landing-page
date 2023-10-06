@@ -1,3 +1,4 @@
+import { AboutMeSection } from './components/AboutMeSection'
 import { AccordionSection } from './components/AccordionSection'
 import { CardSection } from './components/CardSection'
 import { FeedbackSection } from './components/FeedbackSection'
@@ -14,6 +15,7 @@ export default function Home() {
       <CardSection />
       <AccordionSection />
       <FeedbackSection />
+      <AboutMeSection />
     </>
   )
 }
