@@ -22,26 +22,20 @@ export function FeedbackSection() {
         />
 
         <FeedbackComponent
-          name="Robson Maranhão"
-          description="Dr. Bruno além de um excelente advogado, é competente e 
-          também é um ser humano incrível; Atencioso, escuta o cliente, anota os 
-          mínimos detalhes, tira dúvida do cliente, é"
+          name="Marluce Freitas"
+          description="Experiência super positiva. Ambiente agradável, ótimo atendimento, e profissionais competentes. Recomendo"
           stars={5}
         />
 
         <FeedbackComponent
-          name="Robson Maranhão"
-          description="Dr. Bruno além de um excelente advogado, é competente e 
-          também é um ser humano incrível; Atencioso, escuta o cliente, anota os 
-          mínimos detalhes, tira dúvida do cliente, é"
+          name="Edson Lins"
+          description="Trabalho e atendimento incríveis!"
           stars={5}
         />
 
         <FeedbackComponent
-          name="Robson Maranhão"
-          description="Dr. Bruno além de um excelente advogado, é competente e 
-          também é um ser humano incrível; Atencioso, escuta o cliente, anota os 
-          mínimos detalhes, tira dúvida do cliente, é"
+          name="Luciano Feitosa"
+          description="O Dr Bruno sabe atender bem as pessoas e conseguiu resolver meu problema!!!"
           stars={5}
         />
       </div>
