@@ -1,4 +1,5 @@
 import { AccordionComponent } from './Accordion'
+import { CtaButton } from './CtaButton'
 
 export function AccordionSection() {
   return (
@@ -11,6 +12,8 @@ export function AccordionSection() {
       <div>
         <AccordionComponent />
       </div>
+
+      <CtaButton />
     </section>
   )
 }
