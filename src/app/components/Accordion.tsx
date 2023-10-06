@@ -22,7 +22,7 @@ export function AccordionComponent() {
                 className="group"
                 key={item.id}
               >
-                <Accordion.Header className="bg-slate-100  transition-transform group-data-[state=open]:bg-slate-800 py-[22px] px-[20px] shadow-xl  flex gap-[18px] items-center justify-center">
+                <Accordion.Header className="bg-slate-100  transition-transform group-data-[state=open]:bg-slate-800 py-[22px] px-[20px] shadow-xl  flex gap-[18px] items-center lg:items-start lg:justify-between justify-center">
                   <span className="text-slate-700 group-data-[state=open]:text-orange-300 transition-colors duration-300 font-roboto text-xl font-medium leading-[24px]">
                     {item.title}
                   </span>
