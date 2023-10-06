@@ -4,28 +4,56 @@ import { CtaButton } from './CtaButton'
 
 export function Hero() {
   return (
-    <main className="flex flex-col bg-hero bg-cover bg-no-repeat gap-4 py-8 px-4 font-roboto">
-      <h1 className="text-slate-900 text-[32px] font-medium leading-[40px]">
+    <main className="flex flex-col bg-hero bg-cover bg-no-repeat gap-4 py-8 px-4 font-roboto lg:px-32 lg:py-14 lg:flex-row lg:gap-10">
+      <h1 className="text-slate-900 text-[32px] font-medium leading-[40px] lg:hidden">
         Somos um escritório especialista e pronto para te ajudar a recuperar o
         seu veículo que foi tomado pelo banco ou para você que está sendo
         ameaçado de perder o seu bem!
       </h1>
 
-      <span className="text-slate-900 font-normal text-xl leading-[24px]">
+      <span className="text-slate-900 font-normal text-xl leading-[24px] lg:hidden">
         Nosso escritório atende em todo território nacional com agilidade,
         eficiência e online o que nos permite analisar o seu caso com
         profundidade para encontrar a melhor estratégia jurídica na resolução do
         seu problema.
       </span>
 
-      <div>
+      <div className="lg:hidden">
         <Image
           src={mainImage}
           alt="Imagem de homem preocupado com carro quebrado"
         />
       </div>
 
-      <CtaButton />
+      <div className="lg:hidden">
+        <CtaButton />
+      </div>
+
+      {/* DESKTOP VERSION */}
+      <div className="hidden lg:flex lg:justify-between gap-10">
+        <div className="flex flex-col gap-10 ">
+          <h1 className="text-slate-900 text-[32px] font-medium leading-[40px]">
+            Somos um escritório especialista e pronto para te ajudar a recuperar
+            o seu veículo que foi tomado pelo banco ou para você que está sendo
+            ameaçado de perder o seu bem!
+          </h1>
+
+          <span className="text-slate-900 font-normal text-xl leading-[24px]">
+            Nosso escritório atende em todo território nacional com agilidade,
+            eficiência e online o que nos permite analisar o seu caso com
+            profundidade para encontrar a melhor estratégia jurídica na
+            resolução do seu problema.
+          </span>
+
+          <CtaButton />
+        </div>
+        <div className="flex items-center">
+          <Image
+            src={mainImage}
+            alt="Imagem de homem preocupado com carro quebrado"
+          />
+        </div>
+      </div>
     </main>
   )
 }
