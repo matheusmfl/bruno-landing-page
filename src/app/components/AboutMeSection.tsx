@@ -3,9 +3,9 @@ import imageBruno from '@/assets/about-me-bruno.png'
 
 export function AboutMeSection() {
   return (
-    <section className="flex flex-col bg-vector bg-slate-50 bg-center bg-contain bg-no-repeat">
+    <section className="flex flex-col bg-vector bg-slate-50 lg:flex-row bg-center lg:pr-8  bg-contain bg-no-repeat">
       {/* Principal container */}
-      <div className="px-4 py-8 flex flex-col gap-4 font-roboto">
+      <div className="px-4 py-8 flex flex-col gap-4 font-roboto lg:px-20 lg:py-14">
         <h2 className="text-slate-800 text-[32px] font-semibold leading-[44px] ">
           Sobre mim
         </h2>
@@ -23,7 +23,7 @@ export function AboutMeSection() {
         </span>
       </div>
 
-      <div>
+      <div className="lg:h-full lg:flex lg:items-end lg:justify-end lg:mt-auto">
         <Image src={imageBruno} alt="Advogado Bruno" />
       </div>
     </section>
