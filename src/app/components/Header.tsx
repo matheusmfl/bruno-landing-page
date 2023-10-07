@@ -2,6 +2,7 @@ import Image from 'next/image'
 import logo from '@/assets/logo.svg'
 import { IoMailOutline } from 'react-icons/io5'
 import { BiLogoWhatsapp } from 'react-icons/bi'
+import Link from 'next/link'
 
 export function Header() {
   return (
@@ -12,12 +13,20 @@ export function Header() {
         {/* Mail Div */}
         <div className="flex gap-1 items-center">
           <IoMailOutline className="text-orange-300 text-base" />
-          <span>advbrunosilva@outlook.com</span>
+          <Link href={'mailto:advbrunosilva@outlook.com'}>
+            <span>advbrunosilva@outlook.com</span>
+          </Link>
         </div>
 
         <div className="flex gap-1 items-center">
           <BiLogoWhatsapp className="text-orange-300 text-base" />
-          <span>86 99567 - 6008</span>
+          <Link
+            href={
+              'https://wa.me/5585985676008?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
+            }
+          >
+            <span>86 99567 - 6008</span>
+          </Link>
         </div>
       </div>
     </header>
