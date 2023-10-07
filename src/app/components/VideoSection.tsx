@@ -12,9 +12,9 @@ export function VideoSection() {
         className="aspect-square object-contain object-left-top"
       /> */}
       {/* Div do vídeo */}
-      <div>
+      <div className="aspect-video w-full">
         <iframe
-          className="aspect-video w-full"
+          className="w-full h-full"
           src="https://player.vimeo.com/video/872097003"
         ></iframe>
       </div>
