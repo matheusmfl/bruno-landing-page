@@ -19,7 +19,7 @@ export function VideoSection() {
         ></iframe>
       </div>
 
-      <div className="lg:flex lg:flex-col lg:gap-6 lg:pt-5">
+      <div className="flex flex-col lg:gap-6 lg:pt-5 py-8 px-4 gap-4">
         <h2 className="text-amber-600 text-2xl font-medium leading-[28px] pb-2">
           O banco emitiu mandado de busca e apreensão para o seu veículo?
         </h2>
