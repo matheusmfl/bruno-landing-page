@@ -10,7 +10,7 @@ export function Header() {
     <header className="flex flex-col gap-2 lg:px-32 lg:py-5 font-normal text-slate-50 text-xs items-center lg:flex-row lg:justify-between lg:w-full justify-center px-4 py-2 bg-slate-900 font-roboto">
       {/* Whatsapp Fixed */}
       <Link
-        className="fixed bottom-3 right-3 animate-bounce"
+        className="fixed bottom-3 right-3 animate-bounce z-50"
         href={
           'https://wa.me/5585985676008?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
         }
