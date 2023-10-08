@@ -14,6 +14,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         hero: 'url(/bg-hero.webp)',
         vector: 'url(/bg-vector.svg)',
+        video: 'url(/bg-video.webp)',
       },
       gradientColorStops: {
         'hero-color':

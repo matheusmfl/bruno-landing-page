@@ -4,15 +4,8 @@ import { CtaButton } from './CtaButton'
 export function VideoSection() {
   return (
     <section className="flex flex-col bg-slate-200 py-8 px-4 gap-4 font-roboto lg:flex-row lg:px-32 lg:py-14">
-      {/* <Image
-        src={thumb}
-        alt="thumb de video"
-        width={545}
-        height={362}
-        className="aspect-square object-contain object-left-top"
-      /> */}
       {/* Div do vídeo */}
-      <div className="aspect-video w-full">
+      <div className="aspect-video w-full bg-video relative">
         <iframe
           className="w-full h-full"
           src="https://player.vimeo.com/video/872097003"
