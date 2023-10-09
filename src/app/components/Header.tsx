@@ -12,7 +12,7 @@ export function Header() {
       <Link
         className="fixed bottom-3 right-3 animate-bounce z-50"
         href={
-          'https://wa.me/5585985676008?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
+          'https://wa.me/5586995676008?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
         }
       >
         <Image src={whatsapp} alt="Clicke aqui e fale conosco whatsapp" />
@@ -33,7 +33,7 @@ export function Header() {
           <BiLogoWhatsapp className="text-orange-300 text-base" />
           <Link
             href={
-              'https://wa.me/5585985676008?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
+              'https://wa.me/5586995676008?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
             }
           >
             <span>86 99567 - 6008</span>
