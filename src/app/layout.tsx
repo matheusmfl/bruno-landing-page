@@ -22,11 +22,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   // eslint-disable-next-line prettier/prettier
-  <Script
-    id="fb-pixel"
-    strategy="afterInteractive"
-    dangerouslySetInnerHTML={{
-      __html: `
+
+  return (
+    <html lang="en">
+      <body className={`${roboto.className} ${inter.className}`}>
+        <Script
+          id="fb-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -39,11 +43,8 @@ fbq('init', '333567652673981');
 fbq('track', 'PageView');
 
 `,
-    }}
-  />
-  return (
-    <html lang="en">
-      <body className={`${roboto.className} ${inter.className}`}>
+          }}
+        />
         {children}
       </body>
     </html>

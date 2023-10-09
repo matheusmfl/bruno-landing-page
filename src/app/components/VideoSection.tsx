@@ -7,6 +7,7 @@ export function VideoSection() {
       {/* Div do vídeo */}
       <div className="aspect-video w-full bg-video relative">
         <iframe
+          title="Video Bruno Silva"
           className="w-full h-full"
           src="https://player.vimeo.com/video/872097003"
         ></iframe>
