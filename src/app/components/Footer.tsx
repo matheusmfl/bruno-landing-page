@@ -14,7 +14,7 @@ export function Footer() {
         <div className="flex gap-2">
           <AiOutlineWhatsApp className="w-[24px] h-[24px] text-[#FDBA74]" />
           <span className="text-slate-50 font-roboto text-base font-normal">
-            86 99567 - 6008
+            18 99108-7902
           </span>
         </div>
 
