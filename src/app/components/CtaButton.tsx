@@ -5,7 +5,7 @@ export function CtaButton() {
   return (
     <Link
       href={
-        'https://wa.me/5586995676008?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
+        'https://wa.me/5518991087902?text=Dr.+Bruno+Silva%2C+preciso+de+ajuda+com+meu+ve%C3%ADculo%C2%A0URGENTE%21%21'
       }
     >
       <button
