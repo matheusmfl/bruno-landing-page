@@ -3,7 +3,10 @@ import type { Metadata } from 'next'
 import { Inter, Roboto } from 'next/font/google'
 import Script from 'next/script'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '900', '700'],
+})
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '900', '700'],
@@ -25,7 +28,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${roboto.className} ${inter.className}`}>
+      <body className={`${inter.className}`}>
         <Script
           id="fb-pixel"
           strategy="afterInteractive"

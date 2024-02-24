@@ -4,58 +4,46 @@ import { CtaButton } from './CtaButton'
 
 export function Hero() {
   return (
-    <main className="flex flex-col bg-hero bg-cover bg-no-repeat gap-4 py-8 px-4 font-roboto lg:px-32 lg:py-14 lg:flex-row lg:gap-10">
-      <div className="px-3 py-2 bg-slate-800 rounded lg:hidden">
-        <h1 className="text-slate-50 text-2xl font-semibold">
-          Seu veículo foi apreendido?
-        </h1>
-      </div>
+    <main className="flex flex-col bg-hero bg-cover bg-center bg-no-repeat gap-4 py-8 lg:py-28 lg:px-28 px-4 font-roboto lg:flex-row lg:gap-10">
+      <>
+        <div className="px-3 py-4 bg-[#08254F] rounded lg:hidden">
+          <h1 className="text-orange-400 text-3xl text-center font-bold">
+            Seu veículo foi apreendido?
+          </h1>
+        </div>
 
-      <h2 className="text-slate-900 text-[32px] font-medium leading-[40px] lg:hidden">
-        Somos um escritório especialista e pronto para te ajudar a recuperar o
-        seu veículo que foi tomado pelo banco ou para você que está sendo
-        ameaçado de perder o seu bem!
-      </h2>
+        <h2 className="text-slate-50 text-[24px] text-center font-bold leading-[32px] lg:hidden">
+          Somos um escritório especialista e pronto para te ajudar a recuperar o
+          seu veículo que foi tomado pelo banco ou para você que está sendo
+          ameaçado de perder o seu bem!
+        </h2>
 
-      <span className="text-slate-900 font-normal text-xl leading-[24px] lg:hidden">
-        Nosso escritório atende em todo território nacional com agilidade,
-        eficiência e online o que nos permite analisar o seu caso com
-        profundidade para encontrar a melhor estratégia jurídica na resolução do
-        seu problema.
-      </span>
+        <div className="lg:hidden">
+          <Image
+            src={mainImage}
+            alt="Imagem de homem preocupado com carro quebrado"
+          />
+        </div>
 
-      <div className="lg:hidden">
-        <Image
-          src={mainImage}
-          alt="Imagem de homem preocupado com carro quebrado"
-        />
-      </div>
-
-      <div className="lg:hidden">
-        <CtaButton />
-      </div>
+        <div className="lg:hidden">
+          <CtaButton />
+        </div>
+      </>
 
       {/* DESKTOP VERSION */}
-      <div className="hidden lg:flex lg:justify-between gap-10">
-        <div className="flex flex-col gap-5 ">
-          <div className="px-3 py-2 bg-slate-800 rounded max-w-[440px]">
-            <h1 className="text-slate-50 text-2xl font-semibold">
+      <div className="hidden lg:flex gap-10">
+        <div className="flex flex-col gap-8 max-w-[580px] ">
+          <div className="px-6 py-2 bg-[#08254F] flex items-center rounded max-w-[440px]">
+            <h1 className="text-orange-400 text-2xl font-bold">
               Seu veículo foi apreendido?
             </h1>
           </div>
 
-          <h1 className="text-slate-900 text-[32px] font-medium leading-[40px]">
+          <h1 className="text-slate-50 text-[32px] font-bold leading-[40px]">
             Somos um escritório especialista e pronto para te ajudar a recuperar
             o seu veículo que foi tomado pelo banco ou para você que está sendo
             ameaçado de perder o seu bem!
           </h1>
-
-          <span className="text-slate-900 font-normal text-xl leading-[24px]">
-            Nosso escritório atende em todo território nacional com agilidade,
-            eficiência e online o que nos permite analisar o seu caso com
-            profundidade para encontrar a melhor estratégia jurídica na
-            resolução do seu problema.
-          </span>
 
           <CtaButton />
         </div>
@@ -63,7 +51,6 @@ export function Hero() {
           <Image
             src={mainImage}
             alt="Imagem de homem preocupado com carro quebrado"
-            className="scale-125 object-top"
           />
         </div>
       </div>

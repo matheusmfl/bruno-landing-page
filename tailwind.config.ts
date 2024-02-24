@@ -12,6 +12,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-hero':
+          'linear-gradient(180deg, rgba(30, 41, 59, 0) 50%, #1E293B 65.48%, #1E293B 86.45%), url(/bg-hero.webp)',
         hero: 'url(/bg-hero.webp)',
         vector: 'url(/bg-vector.svg)',
         video: 'url(/bg-video.webp)',
