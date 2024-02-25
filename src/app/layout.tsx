@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Roboto } from 'next/font/google'
 import Script from 'next/script'
+import { Container } from './components/Container'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -48,7 +49,8 @@ fbq('track', 'PageView');
 `,
           }}
         />
-        {children}
+
+        <Container>{children}</Container>
       </body>
     </html>
   )

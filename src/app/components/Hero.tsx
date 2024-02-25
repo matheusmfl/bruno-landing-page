@@ -4,7 +4,7 @@ import { CtaButton } from './CtaButton'
 
 export function Hero() {
   return (
-    <main className="flex flex-col bg-hero bg-cover bg-center bg-no-repeat gap-4 py-8 lg:py-28 lg:px-28 px-4 font-roboto lg:flex-row lg:gap-10">
+    <main className="flex flex-col bg-hero bg-cover bg-center bg-no-repeat gap-4 py-8 lg:pt-28 lg:pb-[240px] lg:px-28 px-4 font-roboto lg:flex-row lg:gap-10">
       <>
         <div className="px-3 py-4 bg-[#08254F] rounded lg:hidden">
           <h1 className="text-orange-400 text-3xl text-center font-bold">
