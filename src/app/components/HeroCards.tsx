@@ -9,7 +9,7 @@ export function HeroCards() {
     <div className="w-full flex flex-col lg:flex-row bg-none relative">
       <div className="lg:mx-28 flex flex-col lg:flex-row bg-none rounded-md  lg:overflow-hidden   shadow-xl">
         {/* Card 1 */}
-        <div className="rounded-bl-2 h-[292px] bg-slate-100 flex flex-col px-6 py-8 gap-6 items-center">
+        <div className="rounded-bl-2 h-[215px] lg:h-[292px] bg-slate-100 flex flex-col px-6 py-6 lg:py-8 gap-6 items-center">
           {/* Icon + título */}
           <div className="flex flex-col items-center">
             <Image src={Icon1} alt="Icone" />
@@ -24,7 +24,7 @@ export function HeroCards() {
           </span>
         </div>
         {/* Card 2 */}
-        <div className="rounded-tl-2 rounded-bl-2 h-[292px] bg-slate-100 flex flex-col px-6 py-8 gap-6 items-center">
+        <div className="rounded-tl-2 rounded-bl-2 h-[215px] lg:h-[292px] bg-slate-100 flex flex-col px-6 py-6 lg:py-8 gap-6 items-center">
           {/* Icon + título */}
           <div className="flex flex-col items-center">
             <Image src={Icon2} alt="Icone" />
@@ -40,7 +40,7 @@ export function HeroCards() {
         </div>
 
         {/* Card 3 */}
-        <div className="rounded-tl-2  rounded-bl-2 h-[292px] bg-[#08254F] flex flex-col px-6 py-8 gap-6 items-center">
+        <div className="rounded-tl-2  rounded-bl-2 h-[265px] lg:h-[292px] bg-[#08254F] flex flex-col px-6 py-6 lg:py-8 gap-6 items-center">
           {/* Icon + título */}
           <div className="flex flex-col items-center">
             <Image src={Icon3} alt="Icone" />
@@ -56,7 +56,7 @@ export function HeroCards() {
         </div>
 
         {/* Card 4 */}
-        <div className="rounded-tl-2 rounded-bl-2 h-[292px] bg-slate-100 flex flex-col px-6 py-8 gap-6 items-center">
+        <div className="rounded-tl-2 rounded-bl-2 h-[215px] lg:h-[292px] bg-slate-100 flex flex-col px-6 py-6 lg:py-8 gap-6 items-center">
           {/* Icon + título */}
           <div className="flex flex-col items-center">
             <Image src={Icon4} alt="Icone" />

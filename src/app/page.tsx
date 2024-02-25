@@ -1,6 +1,7 @@
 import { AboutMeSection } from './components/AboutMeSection'
 import { AccordionSection } from './components/AccordionSection'
 import { CardSection } from './components/CardSection'
+import { CardWithIconSession } from './components/CardsWithIconSession'
 import { FeedbackSection } from './components/FeedbackSection'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
@@ -19,7 +20,7 @@ export default function Home() {
         </div>
         <VideoSection />
       </div>
-      <CardSection />
+      <CardWithIconSession />
       <AccordionSection />
       <FeedbackSection />
       <AboutMeSection />
