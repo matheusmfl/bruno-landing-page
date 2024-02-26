@@ -26,7 +26,7 @@ export function CardsWithIconsComponent({
 }: ICardsProps) {
   return (
     <div className="border-[4px] relative border-slate-400 py-[45px] rounded-md flex flex-col gap-6 px-6">
-      <h2 className="text-[20px] leading-6 font-bold text-center">{title}</h2>
+      <h2 className="text-[20px] leading-6 text-slate-50 font-bold text-center">{title}</h2>
       <span className="text-[20px] leading-6 font-medium text-center text-slate-50">
         {subtitle}
       </span>
